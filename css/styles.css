@@ -63,6 +63,10 @@ body {
     background-color: var(--accent-background-color);
     /* height: 600px; */
     color: var(--hero-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+        /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -70,6 +74,14 @@ body {
 .hero-button {
     background-color: var(--accent-background-button-color);
     color: var(--accent-text-button-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+        /* identical to box height, or 188% */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 
@@ -103,7 +115,7 @@ body {
 .working-title,
 .team-title {
     color: var(--second-text-color);
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -120,7 +132,7 @@ body {
 }
 .team-name {
     color: var(--second-text-color);
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -129,8 +141,8 @@ body {
     letter-spacing: 0.03em;
 }
 .team-position { 
-    font-style: normal;
-    font-weight: 400;
+    /* font-style: normal;
+    font-weight: 400; */
     font-size: 16px;
     line-height: 19px;
         /* identical to box height */
@@ -145,7 +157,7 @@ body {
 .filter-button {
     background-color: var(--second-background-color);
     color: var(--second-text-color);
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -161,7 +173,7 @@ body {
 }
 .portfolio-list-title {
     color: var(--second-text-color);
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -169,8 +181,8 @@ body {
     letter-spacing: 0.06em;
 }
 .portfolio-list-text {
-    font-style: normal;
-    font-weight: 400;
+    /* font-style: normal;
+    font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
         /* identical to box height, or 188% */
@@ -191,8 +203,8 @@ body {
 .footer-mail,
 .footer-phone {
     text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
+    /* font-style: normal;
+    font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;
         /* or 171% */

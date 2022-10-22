@@ -45,6 +45,10 @@ body {
 .nav {
     color: var(--second-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .contacts {
     color: var(--main-text-color);
@@ -55,13 +59,15 @@ body {
 .contacts:hover,
 .contacts:focus {
     color: var(--accent-text-color);
+    cursor: none;
 }
 
 /* Start page */
 /* Hero */
 .hero {
     background-color: var(--accent-background-color);
-    /* height: 600px; */
+}   
+h1 {
     color: var(--hero-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -72,8 +78,15 @@ body {
     text-transform: uppercase;
 }
 .hero-button {
+    margin: 0 auto;
+    display: block;
+    width: 216px;
+    /* height: 50px;
+    left: 692px;
+    top: 430px; */
     background-color: var(--accent-background-button-color);
     color: var(--accent-text-button-color);
+    /* position: absolute; */
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -203,8 +216,8 @@ body {
 .footer-mail,
 .footer-phone {
     text-decoration: none;
-    /* font-style: normal;
-    font-weight: 400; */
+    font-style: normal;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;
         /* or 171% */
